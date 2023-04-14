@@ -1,11 +1,5 @@
 package com.metanit;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.Buffer;
-import java.time.temporal.ValueRange;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
