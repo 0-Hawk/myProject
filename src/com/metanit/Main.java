@@ -1,13 +1,19 @@
 package com.metanit;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
         //В массиве минимум из 10 чисел найди среднее арифметическое нечетных чисел
         Scanner input = new Scanner(System.in);
+        System.out.println("Введите размер массива");
         int size = input.nextInt();
         int[] mas = new int[size];
+        System.out.println("Введите символы");
+        for (int i = 0; i < size; i++) {
+            mas[i] = input.nextInt();
+        }
         int quantity = 0;
         int sum = 0;
         for (int i = 0; i < mas.length + 1; i++){
@@ -39,4 +45,4 @@ public class Main {
 /*split()*/
 /*!= — не равно*/
 /*System.out.println(Arrays.toString(y));*/
-//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
+//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
